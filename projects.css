@@ -1,0 +1,75 @@
+/* style.css
+        Author:       Kyle Mazely
+        Date:         2023-11-22
+        Last Revised: 2023-11-22
+        Assignment:   Project
+        Description:  styling for Completed Projects page
+*/
+body {
+  background-color: #424E5F;
+  margin: 0;
+}
+header, nav {
+  color: #eee;
+  width: 100%;
+  margin: 0;
+  padding: 10px 0px;
+}
+header {
+  background-color: #fff;
+  height: 95px;
+  text-align: center;
+}
+nav {
+  background-color: #141C2B;
+  height: 95px;
+  text-align: center;
+}
+nav a {
+top: 40px;
+float: center;
+color: #FFF;
+margin: 0 30px;
+}
+nav a:link, nav a:visited {
+	margin-right: 5px;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+}
+nav a:hover, nav a:active, .current {
+	color: #FFDCAD;
+  border-bottom: 4px solid #333;
+}
+article {
+  width: 70%;
+  margin: auto;
+  background-color: #FFF;
+  padding: 5px;
+}
+figure {
+  float: left;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+figure img {
+  height: 200px;
+  width: 300px;
+  vertical-align: top;
+}
+figure figcaption {
+  text-align: center;
+}
+article section {
+  height: 300px;
+}
+article section h1 {
+  text-align: center;
+  color: #E32227;
+}
+article section p {
+  margin-top: 10px;
+}
+footer {
+  background-color: #424E5F;
+}
