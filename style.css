@@ -35,3 +35,25 @@
 .nav a:hover {
     color: #E32227; 
 }
+
+
+
+.footer {
+    background-color: #424E5F;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+}
+
+.footer p a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+
+}
