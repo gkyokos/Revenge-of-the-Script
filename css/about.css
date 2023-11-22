@@ -1,0 +1,55 @@
+/* .css
+    Author:         Elizabeth Rowe
+    Date:           11-22-2023
+    Last Revised:   11-22-2023
+    Assignment:     Semester Project
+    Purpose:        CSS Styling for Website
+*/
+.top-border { 
+    background-color: #424E5F; 
+    width: 100%; 
+    height: 50px; 
+} 
+
+.logo { 
+    display: flex; 
+    justify-content: center; 
+} 
+     
+.nav { 
+    
+    background-color: #141C2B; 
+    height: 100px; 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+} 
+
+.nav a { 
+    color: white; 
+    font-size: x-large; 
+    text-decoration: none; 
+} 
+
+.nav a:hover { 
+    color: #E32227;  
+} 
+    
+.footer { 
+    background-color: #424E5F; 
+    height: 150px; 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+} 
+
+.footer p { 
+    color: white; 
+    text-align: center; 
+} 
+
+.footer p a { 
+    color: white; 
+    text-decoration: none; 
+    padding: 20px; 
+} 
