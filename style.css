@@ -47,12 +47,23 @@
 }
 
 .mission {
-    
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission img {
+    width: 250px;
+    height: 250px;
+    float: right;
 }
 
 .mission p {
-    margin-left: 200px;
+    width: 400px;
+    padding-top: 50px;
     font-size: medium;
+    padding-right: 100px;
 }
 
 .footer {
