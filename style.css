@@ -6,3 +6,15 @@
     Purpose:        CSS Styling for Website
 */
 
+.top-border {
+    background-color: #424E5F;
+    width: 100%;
+    height: 50px;
+
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+
+}
