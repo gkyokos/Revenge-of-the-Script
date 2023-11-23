@@ -9,22 +9,19 @@
   background-color: #424E5F;
   width: 100%;
   height: 50px;
-
 }
 body {
   background-color: #424E5F;
   margin: 0;
-}
-header, nav {
-  color: #eee;
-  width: 100%;
-  margin: 0;
-  padding: 10px 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 header {
   background-color: #fff;
-  height: 95px;
-  text-align: center;
+  height: 100px;
+  display: flex; 
+  justify-content: center;
+  margin: 0;
+  padding: 10px 0px;
 }
 header img  {
   width: 400px;
@@ -38,21 +35,12 @@ nav {
   font-family: Arial, Helvetica, sans-serif;
 }
 nav a {
-font-size: x-large;
-top: 40px;
-float: center;
-color: #FFF;
-margin: 0 30px;
-}
-nav a:link, nav a:visited {
-	margin-right: 5px;
-  text-align: center;
+  color: white;
+  font-size: x-large;
   text-decoration: none;
-  position: relative;
 }
-nav a:hover, nav a:active, .current {
-	color: #E32227;
-  border-bottom: 4px solid #333;
+nav a:hover {
+  color: #E32227; 
 }
 article {
   width: 70%;
@@ -73,16 +61,30 @@ figure img {
 }
 figure figcaption {
   text-align: center;
+  font-weight: bold;
+  font-size: 20px;
 }
 article section {
   height: 300px;
 }
-article section h1 {
+article section h2 {
   text-align: center;
   color: #E32227;
 }
 article section p {
-  margin-top: 10px;
+  margin: auto 20px;
+  height: 250px;
+  z-index: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  
+}
+article section p:active {
+  background-color: #FFF;
+  font-size: larger;
+  position: absolute;
+  max-width: 850px;
+  overflow: visible;
 }
 footer {
   background-color: #141C2B;
