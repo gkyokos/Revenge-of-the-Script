@@ -1,0 +1,103 @@
+/* style.css
+        Author:       Kyle Mazely
+        Date:         2023-11-22
+        Last Revised: 2023-11-22
+        Assignment:   Project
+        Description:  styling for Completed Projects page
+*/
+.top-border {
+  background-color: #424E5F;
+  width: 100%;
+  height: 50px;
+
+}
+body {
+  background-color: #424E5F;
+  margin: 0;
+}
+header, nav {
+  color: #eee;
+  width: 100%;
+  margin: 0;
+  padding: 10px 0px;
+}
+header {
+  background-color: #fff;
+  height: 95px;
+  text-align: center;
+}
+header img  {
+  width: 400px;
+}
+nav {
+  background-color: #141C2B;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav a {
+font-size: x-large;
+top: 40px;
+float: center;
+color: #FFF;
+margin: 0 30px;
+}
+nav a:link, nav a:visited {
+	margin-right: 5px;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+}
+nav a:hover, nav a:active, .current {
+	color: #E32227;
+  border-bottom: 4px solid #333;
+}
+article {
+  width: 70%;
+  margin: auto;
+  background-color: #FFF;
+  padding: 5px;
+}
+figure {
+  float: left;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+figure img {
+  height: 200px;
+  width: 300px;
+  vertical-align: top;
+  border: 4px solid #141C2B;
+}
+figure figcaption {
+  text-align: center;
+}
+article section {
+  height: 300px;
+}
+article section h1 {
+  text-align: center;
+  color: #E32227;
+}
+article section p {
+  margin-top: 10px;
+}
+footer {
+  background-color: #141C2B;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+footer p {
+  color: white;
+  text-align: center;
+}
+footer p a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
