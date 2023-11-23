@@ -5,6 +5,12 @@
         Assignment:   Project
         Description:  styling for Completed Projects page
 */
+.top-border {
+  background-color: #424E5F;
+  width: 100%;
+  height: 50px;
+
+}
 body {
   background-color: #424E5F;
   margin: 0;
@@ -20,12 +26,19 @@ header {
   height: 95px;
   text-align: center;
 }
+header img  {
+  width: 400px;
+}
 nav {
   background-color: #141C2B;
-  height: 95px;
-  text-align: center;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 nav a {
+font-size: x-large;
 top: 40px;
 float: center;
 color: #FFF;
@@ -38,7 +51,7 @@ nav a:link, nav a:visited {
   position: relative;
 }
 nav a:hover, nav a:active, .current {
-	color: #FFDCAD;
+	color: #E32227;
   border-bottom: 4px solid #333;
 }
 article {
@@ -56,6 +69,7 @@ figure img {
   height: 200px;
   width: 300px;
   vertical-align: top;
+  border: 4px solid #141C2B;
 }
 figure figcaption {
   text-align: center;
@@ -71,5 +85,19 @@ article section p {
   margin-top: 10px;
 }
 footer {
-  background-color: #424E5F;
+  background-color: #141C2B;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+footer p {
+  color: white;
+  text-align: center;
+}
+footer p a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
 }
