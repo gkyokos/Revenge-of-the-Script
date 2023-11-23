@@ -64,15 +64,7 @@ body {
 
 
 
-
-
-
-
 /*content portion*/
-
-.content {
-    font-size: xx;
-}
 
 article {
     width: 70%;
@@ -81,11 +73,11 @@ article {
     padding: 5px;
 }
 
-.content h1 {
+h1 {
     background-color: #424E5F;
     color: #fff;
     text-align: center;
-    margin: 0 20px;
+    margin: 50px 20px;
     font-size: 50px;
 }
 
@@ -94,24 +86,25 @@ article {
     padding-left: 30px;
 }
 
-ul {
-    font-size: 20px;
-    margin-left: 30px;
-    margin-bottom: 50px;
-    list-style: none;
+table {
+    padding-left: 100px;
+    width: 80%;
+    text-align: left
 }
 
-li {
-    
+td {
+    padding-bottom: 30px;
+    padding-right: 30px;
 }
 
-.descriptor {
-    margin-left: 30px;
-    font-size: 15px;
+table img {
+    height: 150px;
+    width: 150px;
 }
 
-
-
+.text {
+    font-size: 30px;
+}
 
 
 
@@ -146,10 +139,6 @@ li {
     font-size: medium;
     padding-right: 100px;
 }
-
-
-
-
 
 
 
