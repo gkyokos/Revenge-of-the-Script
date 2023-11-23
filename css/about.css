@@ -12,10 +12,17 @@
 
 }
 
-.logo { 
+header {
+    background-color: #fff;
+    height: 100px;
     display: flex; 
-    justify-content: center; 
-} 
+    justify-content: center;
+    margin: 0;
+    padding: 10px 0px;
+  }
+  header img  {
+    width: 400px;
+  }
 
 .nav {
     background-color: #141C2B;
