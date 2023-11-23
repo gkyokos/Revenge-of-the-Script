@@ -6,6 +6,21 @@
     Purpose:        CSS Styling for Website
 */
 
+body {
+    background-color: #424E5F;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+
+
+
+
+
+
+/*top border part of the site*/
+
 .top-border {
     background-color: #424E5F;
     width: 100%;
@@ -16,7 +31,17 @@
 .logo {
     display: flex;
     justify-content: center;
+    background-color: #fff;
 }
+
+
+
+
+
+
+
+
+/*navigation section of the site*/
 
 .nav {
     background-color: #141C2B;
@@ -36,9 +61,65 @@
     color: #E32227; 
 }
 
-.products {
 
+
+
+
+
+
+
+/*content portion*/
+
+.content {
+    font-size: xx;
 }
+
+article {
+    width: 70%;
+    margin: auto;
+    background-color: #FFF;
+    padding: 5px;
+}
+
+.content h1 {
+    background-color: #424E5F;
+    color: #fff;
+    text-align: center;
+    margin: 0 20px;
+    font-size: 50px;
+}
+
+.content h2 {
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+ul {
+    font-size: 20px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    list-style: none;
+}
+
+li {
+    
+}
+
+.descriptor {
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+/*mission statement part of the site*/
 
 .divider {
     background-color: #141C2B;
@@ -51,6 +132,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #fff;
 }
 
 .mission img {
@@ -64,6 +146,15 @@
     font-size: medium;
     padding-right: 100px;
 }
+
+
+
+
+
+
+
+
+/*footer section part of the site*/
 
 .footer {
     background-color: #424E5F;
