@@ -81,7 +81,7 @@ article section p {
 }
 article section p:active {
   background-color: #FFF;
-  font-size: larger;
+  font-size: x-large;
   position: absolute;
   max-width: 850px;
   overflow: visible;
