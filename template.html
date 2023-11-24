@@ -1,23 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="author" content="Kyoko Smith">
-  <meta name="date" content="11/1/2023">
-  <meta name="description" content="csci 1210 lab 7">
-  <meta name="keywords" content="csci, 1210, labs, lab 7">
-  <title>Lab 7</title>
-  <link rel="icon" href="images/aboutme.ico">
-  <link rel="stylesheet" href="css/style.css">
-  <!--
-      Author:         Kyoko Smith
-      Date:           11/1/2023
-      Last Revised:   11/1/2023
-      Description:    Lab 7
-  -->
-</head>
+<!doctype html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <meta name='author' content='John Doe'>
+        <meta name='date' content="2023-11-21">
+        <meta name="description" content="CSCI, 1210, Project">
+        <meta name="keywords" content="csci, 1210, project">
+        <title>Assembly Transformation</title>
+        <link rel="icon" href="images/icon/ATicon.png">
+        <link rel="stylesheet" href="css/template.css">
+        <!--
+            Author:                   John Doe
+            Date:                     11/21/2023
+            Last revised:             11/23/2023
+            Description:              Assembly Tranformation
+        -->
+    </head>
 <body>
+    <!--Top blue border.-->
+    <div class="top-border"></div>
+    <!--Company logo that directs to home.html when clicked.-->
+    <header>
+        <a href="home.html">
+        <img src='images/ATEM.png' alt='missing' />
+        </a>
+    </header>
+    <!--Navigation bar used to get to all pages of site.-->
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Completed Projects</a>
+        <a href="products.html">Products and Services</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    <!--The actual Completed Products page.-->
+    <!--Pictures on left show a low resolution version for slow wifi. When clicked, it will open a new page showing the high resolution file-->
+    <!--text on right will enlarge when held and clicked. Will revert to normal when left mouse button is released.-->
+    <article>
+        <section class="title">
+            <h1>Completed Projects</h1>
+        </section>
+    </article>
+       <!-- Divides the main content of the page from the mission statement-->
+       <div class="divider"></div>
   
-  <script src="/js/w3c.js"></script>
+       <!-- This is the section that lists the site mission statement-->
+       <div class="mission">
+         <p><b style="font-size: x-large; color: #E32227;">Assembly Transformation</b>
+           <br><br>
+           <b style="font-size: large;">Company Mission Statement</b>
+           <br>
+           Our mission is to provide a website for an electrical company 
+           composed of a home page, about page, contact page, and a 
+           portfolio of completed works. This website should be easily 
+           accessible to all ages with clear and direct navigation. 
+         </p>
+         <img src="images/ElectricalManufacturingPic2.jpg" alt="Someone working on electrical wires.">
+       </div>
+    <footer>
+        <!--Users can also use the footer to go back to a certain page.--> 
+        <p> 
+          <a href="home.html">Home</a> 
+          <a href="about.html">About</a> 
+          <a href="projects.html">Completed Projects</a> 
+          <a href="products.html">Products and Services</a> 
+          <a href="contact.html">Contact Us</a> 
+          <br> <br><br> 
+          1276 Gilbreath Dr, Johnson City, TN 37614
+        </p> 
+    </footer> 
+    <script src="/js/w3c.js"></script>
 </body>
 </html>
