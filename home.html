@@ -17,89 +17,69 @@
   -->
 </head>
 <body>
-  <div class="content">
-    <!-- This is for the top dark grey border of the page-->
-    <div class="top-border"></div>
-  
-    <!-- This is the logo of the company which gets displayed and acts as a link to the home page-->
-    <header>
-        <a href="home.html">
-        <img src='images/ATEM.png' alt='missing' />
-        </a>
-    </header>
-  
-    <!-- this creates the navigation bar with which the user can access each of the five pages of the website -->
-    <div class="nav">
+  <!--Top blue border.-->
+  <div class="top-border"></div>
+  <!--Company logo that directs to home.html when clicked.-->
+  <header>
+      <a href="home.html">
+      <img src='images/ATEM.png' alt='missing' />
+      </a>
+  </header>
+  <!--Navigation bar used to get to all pages of the site.-->
+  <nav>
       <a href="home.html" style="text-decoration: underline;">Home</a>
       <a href="about.html">About</a>
       <a href="projects.html">Completed Projects</a>
       <a href="products.html">Products and Services</a>
       <a href="contact.html">Contact Us</a>
-    </div>
-  
-  
-  
-  
-  
-  
-    <div class="content">
+  </nav>
       <article>
-        <section>
-          <h1>Home</h1>
+        <section class="title">
+            <h1>Home</h1>
         </section>
           <div class="information">
             <p>Thanks for visiting! AT is a prime choice for all your Electrical Manufacturing needs. Our Home page should help you navigate our site.</p>
-            <hr>
           </div>
         <section>
           <div>
-            <h2>Contact Us</h2>
-            <p>Need to contact us? Navigate to the contact us page to see how to get in touch!</p>
-            <h2>About</h2>
+            <a href="about.html"><h2>About</h2></a>
             <p>Wanna find out what AT is all about? Our about page has got you covered.</p>
-            <h2>Completed Projects</h2>
+            <a href="projects.html"><h2>Completed Projects</h2></a>
             <p>We are proud of all of our past work, go check it out on our Completed Projects page.</p>
-            <h2>Products & Services</h2>
+            <a href="products.html"><h2>Products & Services</h2></a>
             <p>AT is the company for you! Find all our services and prices on the Products & Services page!</p>
+            <a href="contact.html"><h2>Contact Us</h2></a>
+            <p>Need to contact us? Navigate to the contact us page to see how to get in touch!</p>
           </div>
         </section>
       </article>
-    </div>
+       <!-- Divides the main content of the page from the mission statement-->
+       <div class="divider"></div>
   
-  
-    <!-- Divides the main content of the page from the mission statement-->
-    <div class="divider"></div>
-  
-    <!-- This is the section that lists the site mission statement-->
-    <div class="mission">
-      <p><b style="font-size: x-large; color: #E32227;">Assembly Transformation</b>
-        <br><br>
-        <b style="font-size: large;">Company Mission Statement</b>
-        <br>
-        Our mission is to provide a website for an electrical company 
-        composed of a home page, about page, contact page, and a 
-        portfolio of completed works. This website should be easily 
-        accessible to all ages with clear and direct navigation. 
-      </p>
-      <img src="images/ElectricalManufacturingPic2.jpg" alt="Someone working on electrical wires.">
-    </div>
-    
-  
-
-
-    <div class="footer">
-      <p>
-        <a href="home.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html">Completed Projects</a>
-        <a href="products.html">Products and Services</a>
-        <a href="contact.html">Contact Us</a>
-        <br> <br><br>
-        1276 Gilbreath Dr, Johnson City, TN 37614</p>
-    </div>
-  
-  
-  
-  <script src="/js/w3c.js"></script>
+       <!-- This is the section that lists the site mission statement-->
+       <div class="mission">
+         <p><b style="font-size: x-large; color: #E32227;">Assembly Transformation</b>
+           <br><br>
+           <b style="font-size: large;">Company Mission Statement</b>
+           <br>
+           Our mission is to provide a website for an electrical company 
+           composed of a home page, about page, contact page, and a 
+           portfolio of completed works. This website should be easily 
+           accessible to all ages with clear and direct navigation. 
+         </p>
+         <img src="images/ElectricalManufacturingPic2.jpg" alt="Someone working on electrical wires.">
+       </div>
+    <footer>
+        <!--Users can also use the footer to go back to a certain page.--> 
+        <p> 
+          <a href="home.html">Home</a> 
+          <a href="about.html">About</a> 
+          <a href="projects.html">Completed Projects</a> 
+          <a href="products.html">Products and Services</a> 
+          <a href="contact.html">Contact Us</a> 
+          <br> <br><br> 
+          1276 Gilbreath Dr, Johnson City, TN 37614
+        </p> 
+    </footer> 
 </body>
 </html>
