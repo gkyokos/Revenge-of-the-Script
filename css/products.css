@@ -1,33 +1,21 @@
 /* .css
     Author:         Kyoko Smith
     Date:           11-21-2023
-    Last Revised:   11-22-2023
+    Last Revised:   11-26-2023
     Assignment:     Semester Project
     Purpose:        CSS Styling for Website
 */
-
 body {
     background-color: #424E5F;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-  }
-
-
-
-
-
-
-
-
+}
 /*top border part of the site*/
-
 .top-border {
     background-color: #424E5F;
     width: 100%;
     height: 50px;
-
 }
-
 header {
     background-color: #fff;
     height: 100px;
@@ -35,12 +23,11 @@ header {
     justify-content: center;
     margin: 0;
     padding: 10px 0px;
-  }
+}
   header img  {
     width: 400px;
-  }
+}
 /*navigation section of the site*/
-
 .nav {
     background-color: #141C2B;
     height: 100px;
@@ -48,29 +35,21 @@ header {
     justify-content: space-around;
     align-items: center;
 }
-
 .nav a {
     color: white;
     font-size: x-large;
     text-decoration: none;
 }
-
 .nav a:hover {
     color: #E32227; 
 }
-
-
-
-
 /*content portion*/
-
 article {
     width: 70%;
     margin: auto;
     background-color: #FFF;
     padding: 5px;
 }
-
 h1 {
     background-color: #424E5F;
     color: #fff;
@@ -78,46 +57,34 @@ h1 {
     margin: 50px 20px;
     font-size: 50px;
 }
-
 .content h2 {
     font-size: 30px;
     padding-left: 30px;
+    text-align: center;
+    color: #E32227; 
 }
-
 table {
     padding-left: 100px;
     width: 80%;
     text-align: left
 }
-
 td {
     padding-bottom: 30px;
     padding-right: 30px;
 }
-
 table img {
     height: 150px;
     width: 150px;
 }
-
 .text {
     font-size: 30px;
 }
-
-
-
-
-
-
-
 /*mission statement part of the site*/
-
 .divider {
     background-color: #141C2B;
     width: 100%;
     height: 50px;
 }
-
 .mission {
     height: 300px;
     display: flex;
@@ -125,24 +92,17 @@ table img {
     align-items: center;
     background-color: #fff;
 }
-
 .mission img {
     width: 250px;
     height: 250px;
     float: right;
 }
-
 .mission p {
     width: 400px;
     font-size: medium;
     padding-right: 100px;
 }
-
-
-
-
 /*footer section part of the site*/
-
 .footer {
     background-color: #424E5F;
     height: 150px;
@@ -150,15 +110,12 @@ table img {
     justify-content: space-around;
     align-items: center;
 }
-
 .footer p {
     color: white;
     text-align: center;
 }
-
 .footer p a {
     color: white;
     text-decoration: none;
     padding: 20px;
-
 }
