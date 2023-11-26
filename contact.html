@@ -12,78 +12,72 @@
   <!--
       Author:         Zach Farmer
       Date:           11/20/2023
-      Last Revised:   11/20/2023
+      Last Revised:   11/26/2023
       Description:    Semester Project
   -->
 </head>
 <body>
-  <!-- This is for the top dark grey border of the page-->
+  <!--Top blue border.-->
   <div class="top-border"></div>
-
-  <!-- This is the logo of the company which gets displayed and acts as a link to the home page-->
+  <!--Company logo that directs to home.html when clicked.-->
   <header>
-        <a href="home.html">
-        <img src='images/ATEM.png' alt='missing' />
-        </a>
+      <a href="home.html">
+      <img src='images/ATEM.png' alt='missing' />
+      </a>
   </header>
-
-  <!-- this creates the navigation bar with which the user can access each of the five pages of the website -->
-  <div class="nav">
-    <a href="home.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="projects.html">Completed Projects</a>
-    <a href="products.html">Products and Services</a>
-    <a href="contact.html" style="text-decoration: underline;">Contact Us</a>
-  </div>
-
-
-  <div class="content">
-    <article>
-      <section>
-        <h1>Contact Us</h1>
-      </section>
-      <section>
-        <div class="rea">
-          <b>Please reach out to us if you have any problems regarding the company or have any further questions for us.</b>
-        </div>
-        <div class="heading">
-          <br>
-          <h2>Contact Info</h2>
-        </div>
-        <div class="info">
-          <br>
-          <b>Phone Number:</b> <a href="423-439-1000">(423) 439-1000</a>
-          <br><br><br>
-          <b>Email Address:</b> <a href="fakeemail@etsu.edu">fakeemail@etsu.edu</a>
-          <br><br><br>
-          <b>Main Address:</b>  <a href="https://www.etsu.edu/provost/contactus.php" target="_black">1276 Gilbreath Dr, Johnson City, TN 37614</a>
-          <br><br>
-
-        </div>
-      </section>
-      
-    </article>
-  </div>
-
-
-
-  </div>
-
-  <!-- Divides the main content of the page from the mission statement-->
-  <div class="divider"></div>
-
-
-  <div class="footer">
-    <p>
+  <!--Navigation bar used to get to all pages of the site.-->
+  <nav>
       <a href="home.html">Home</a>
       <a href="about.html">About</a>
       <a href="projects.html">Completed Projects</a>
       <a href="products.html">Products and Services</a>
-      <a href="contact.html">Contact Us</a>
-      <br> <br><br>
-      1276 Gilbreath Dr, Johnson City, TN 37614</p>
+      <a href="contact.html" style="text-decoration: underline;">Contact Us</a>
+  </nav>
+  <!--The actual Contact Us page.-->
+  <article>
+      <section class="title">
+          <h1>Contact Us</h1>
+          <h2 class="expand_text">Reach out to us for any further questions!</h2>
+      </section>
+      <section>
+        <div class="info">
+          <br>
+          <b>Phone Number:</b> <br><a href="tel: 423-439-1000">(423) 439-1000</a>
+          <br><br><br>
+          <b>Email Address:</b> <br><a href="mailto: fakeemail@etsu.edu">fakeemail@etsu.edu</a>
+          <br><br><br>
+          <b>Main Address:</b>  <br><a href="https://www.etsu.edu/provost/contactus.php" target="_blank">1276 Gilbreath Dr, Johnson City, TN 37614</a>
+          <br><br>
+        </div>
+      </section> 
+  </article>
+  <div class="divider"></div>
+  
+  <!-- This is the section that lists the site mission statement-->
+  <div class="mission">
+    <p><b style="font-size: x-large; color: #E32227;">Assembly Transformation</b>
+      <br><br>
+      <b style="font-size: large;">Company Mission Statement</b>
+      <br>
+      Our mission is to provide a website for an electrical company 
+      composed of a home page, about page, contact page, and a 
+      portfolio of completed works. This website should be easily 
+      accessible to all ages with clear and direct navigation. 
+    </p>
+    <img src="images/ElectricalManufacturingPic2.jpg" alt="Someone working on electrical wires.">
   </div>
-
-  <script src="/js/w3c.js"></script>
+<footer>
+   <!--Users can also use the footer to go back to a certain page.--> 
+   <p> 
+     <a href="home.html">Home</a> 
+     <a href="about.html">About</a> 
+     <a href="projects.html">Completed Projects</a> 
+     <a href="products.html">Products and Services</a> 
+     <a href="contact.html">Contact Us</a> 
+     <br> <br><br> 
+     1276 Gilbreath Dr, Johnson City, TN 37614
+   </p> 
+</footer> 
+<script src="/js/w3c.js"></script>
 </body>
 </html>
